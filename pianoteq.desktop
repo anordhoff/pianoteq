@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Pianoteq
+Type=Application
+Exec=/home/pi/pianoteq.sh

@@ -1,0 +1,12 @@
+[Service]
+User=pi
+ExecStart=/home/pi/pianoteq-start.sh
+ExecStop=/home/pi/pianoteq-stop.sh
+Restart=on-failure
+RestartSec=10s
+LimitRTPRIO=90
+LimitNICE=-10
+LimitMEMLOCK=500000
+
+[Install]
+WantedBy=default.target
